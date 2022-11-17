@@ -1,0 +1,111 @@
+.container {
+ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.listmenu {
+    display: flex;
+    justify-content: center;
+}
+.nav-chitiet{
+    margin-top: 50px;
+}
+.table thead tr th a {
+    text-decoration: none;
+    color: black;
+}
+.table thead tr th a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+.nav-chitiet input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: RGB(234, 234, 234);
+    color: RGB(234, 234, 234);
+}
+.box-chitiet {
+    margin-top: 30px;
+    border: 1px solid rgb(89, 190, 71);
+    border-radius: 5px;
+     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;;
+}
+.box-chitiet .box-shops {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid red;
+    margin: 15px 25px 0px 15px;
+}
+.box-chitiet .box-shops .all-shops .chat{
+    border: none;
+    background-color: red;
+    color: white;
+    width: 50px;
+    border-radius: 5px;
+}
+.box-chitiet .box-shops .all-shops .shops {
+    border: none;
+    background-color: red;
+    color: white;
+    width: 80px;
+    border-radius: 5px;
+}
+.box-chitiet .box-shops .all-shops{
+    margin: 0px 15px;
+}
+.all-bill{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+    border-bottom: 1px solid red;
+    margin: 15px 25px 25px 15px;
+
+}
+.container-shops .img-shops img{
+    width: 100px;
+    height: 100px;
+}
+.container-shops .content-shops{
+    align-self: center;
+    margin-left: 25px;
+}
+.container-shops .diachi {
+    align-self: center;
+}
+.container-shops .bill {
+    align-self: center;
+}
+.container-shops .bill a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.container-shops .all-nhanxet {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 25px;
+}
+.container-shops .all-nhanxet .mualai {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+.container-shops .all-nhanxet .lienhe {
+    border: 1px solid rgba(0,0,0,.09);
+    color: black;
+    border-radius: 5px;
+    margin-right: 25px;
+    width: 200px;
+}
+.container-shops .all-nhanxet .danhgia{
+    border: 1px solid rgba(0,0,0,.09);
+    color: black;
+    border-radius: 5px;
+    margin-right: 25px;
+    width: 200px;
+}
